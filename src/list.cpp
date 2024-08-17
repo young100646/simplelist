@@ -91,6 +91,6 @@ void list::print_list()
     }
     else
     {
-        cout << "Invalid Choice. Quiting.\n";
+        cout << "Invalid Choice. Quiting..\n";
     }
 }
