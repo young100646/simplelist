@@ -52,8 +52,8 @@ void list::add_item()
 }
 void list::delete_item()
 {
-    cout << "*** Delete Item ***\n";
-    cout << " Select an item index number to delete:";
+    cout << "**** Delete Item ****\n";
+    cout << " Select an item index number to delete:\n\n\n";
     if (list.size())
     {
         for (int i = 0; i < (int)list.size(); i++)
@@ -91,6 +91,6 @@ void list::print_list()
     }
     else
     {
-        cout << "Invalid Choice. Quiting..\n";
+        cout << "Invalid Choice. Quiting...\n";
     }
 }
